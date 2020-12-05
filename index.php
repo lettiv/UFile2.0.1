@@ -132,12 +132,12 @@ if($subdomain_lang == 'en') {
 			{
 				$request_page = NULL; //Goto Main Page (INDEX)
 			}
-		}elseif($request_page == 'old_login') {
+		}elseif($request_page == 'cv') {
 			
 			//Check if user is logged in
 			if($myuserid == NULL) {
 			
-				require $_SERVER['DOCUMENT_ROOT']."/pages/old_login.php";
+				require $_SERVER['DOCUMENT_ROOT']."/pages/cv.php";
 				$require_check = 1;
 			}
 			else
