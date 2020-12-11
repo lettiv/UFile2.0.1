@@ -1,0 +1,22 @@
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+
+RewriteRule ^(.*)$ $1.php
+
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+#RewriteCond %{HTTPS} !on
+#RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+ErrorDocument 404 /404.php
+ErrorDocument 503 /503.php
+
+RewriteRule ^room/([^/]*)$ /?room=$1 [L]
+RewriteRule ^room/([^/]*)/([^/]*)$ /?room=$1&room_id=$2 [L]
+
+RewriteRule ^page/([^/]*)$ /?page=$1 [L]
+RewriteRule ^page/([^/]*)/([^/]*)$ /?page=$1&videoId=$2 [L]
