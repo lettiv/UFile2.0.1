@@ -145,6 +145,18 @@ if($subdomain_lang == 'en') {
 			{
 				$request_page = NULL; //Goto Main Page (INDEX)
 			}
+		}elseif($request_page == 'profile') {
+			
+			//Check if user is logged in
+			if($myuserid != NULL) {
+			
+				require $_SERVER['DOCUMENT_ROOT']."/pages/profile.php";
+				$require_check = 1;
+			}
+			else
+			{
+				$request_page = NULL; //Goto Main Page (INDEX)
+			}
 		}
 		
 	
