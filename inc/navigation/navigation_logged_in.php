@@ -1,7 +1,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm navbar navbar-light bg-light">
           <!-- New -->
 
-          <a class="navbar-brand col-md-3">Logo</a>
+          <a href="<?php echo $url; ?>/page/dashboard" class="navbar-brand col-md-3">Logo</a>
 
           <!--
           <form class="form-inline col-md-4 center-block">

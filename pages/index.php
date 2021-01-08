@@ -131,6 +131,26 @@ function login_register(action) {
 					$('#password_input').prop("disabled", false);
 					
 
+				}else if(result == "username_short") {
+					
+					//Hide E-Mail
+					$('#email_wrapper').fadeOut(250);
+					$('#email_title').fadeOut(250);
+					$('#email_input').fadeOut(250);
+					$('#email_input').val('');
+					
+					//Hide Password and Show Preview
+					$("#password_wrapper").addClass("login_register_input_wrapper_preview");
+					$("#password_title").addClass("login_register_input_title_preview");
+					$("#password_input").addClass("login_register_input_preview");
+					$('#password_input').attr("disabled", true);	
+					$('#password_input').val('');
+					
+					//Show Error
+					$('.system_message').html('Dein Nutzername ist zu kurz!');
+					$('.system_message').hide().fadeIn(250);
+					
+
 				}else if(result == "user_available") {
 					
 					//Show E-Mail for register

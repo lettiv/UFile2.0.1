@@ -13,7 +13,7 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
         <div class="col-3 bg-white">
             <center style="padding-top:30px;">
               <img alt="img" heigt="125" width="125" style="border-radius:100%;" src="https://dummyimage.com/125x125/7b4eca/fff.png&text=MP">
-              <h2><?php echo check_username($myuserid); ?></h2>
+              <h2><a href="<?php echo $url; ?>/page/profile"><?php echo check_username($myuserid); ?></a></h2>
               <h4>Lorem Ipsum</h4>
             </center>
             <ul style="list-style:none;font-size:22px;margin-top:3vh;">

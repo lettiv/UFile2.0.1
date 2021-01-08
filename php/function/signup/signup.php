@@ -51,6 +51,12 @@ if($array != NULL) {
 		
 	}
 
+	if($check == 'username_short') {
+	
+		echo 'username_short';
+		
+	}
+
 	if($check == 'email_exists') {
 	
 		echo 'email_exists';
@@ -262,6 +268,12 @@ function login_register($array) {
 				exit;
 			}
 			
+			if(strlen($username) < 3) {
+			
+				return "username_short";
+				exit;
+			}
+
 			if(strlen($password) < 5) {
 			
 				return "password_short";

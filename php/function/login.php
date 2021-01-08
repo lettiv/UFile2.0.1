@@ -50,6 +50,12 @@ if(($username != NULL) AND ($password != NULL)) {
 		
 	}
 
+	if($check == 'username_short') {
+	
+		echo 'Username too short - minimum length is 3 characters!';
+		
+	}
+
 	if($check == 'password_short') {
 	
 		echo 'Password too short - minimum length is 5 characters!';
@@ -168,6 +174,12 @@ function login_register($username, $password) {
 				
 				
 				
+				if(strlen($username) < 3) {
+				
+					return "username_short";
+					exit;
+				}
+
 				if(strlen($password) < 5) {
 				
 					return "password_short";
