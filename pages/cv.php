@@ -34,8 +34,8 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
 }
 .main-timeline .year{
     display: inline-block;
-    width: 85px;
-    height: 85px;
+    width: 30px;
+    height: 30px;
 	display: grid;
 	align-items: center;
     background: blue;
@@ -63,7 +63,7 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
 		<div class="container col-8">
 			<div class="row">
 			</div>
-		</div>	
+		</div>
     </div>
 	<div class="row">
 		<div class="col-md-12">
@@ -131,5 +131,4 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
 
 <?php
 }
-?>	
-	
+?>
