@@ -11,6 +11,7 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
 <style>
 /* Base Styles */
 
+.top-buffer { margin-top:10px; }
 .profile-wrapper {
 	width:100%;
     margin: 0 auto;
@@ -291,7 +292,7 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
 
 The following code will only run if your browser supports CSS grid.
 
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling. 
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox & floated styling.
 
 */
 
@@ -360,7 +361,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
 <div class="container col-11">
     <div class="row">
-	
+
 		<div class="profile-wrapper">
 
 			<div class="profile">
@@ -394,11 +395,22 @@ Remove or comment-out the code block below to see how the browser will fall-back
 				<div class="profile-bio">
 
 					<p><span class="profile-real-name"><?php echo check_username($myuserid); ?></span> Lorem ipsum dolor sit, amet consectetur adipisicing elit 📷✈️🏕️</p>
-
+				</div>
+				<div class="container-fluid">
+				<div class="progress row top-buffer" style="height: 12px;">
+					<div class="progress-bar bg-success" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">Ziel 1: 30%</div>
+				</div>
+				<div class="progress row top-buffer" style="height: 12px;">
+					<div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">Ziel 2: 60%</div>
+				</div>
+				<div class="progress row top-buffer" style="height: 12px;">
+					<div class="progress-bar bg-success" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">Ziel3: 40%</div>
+				</div>
 				</div>
 
 			</div>
 			<!-- End of profile section -->
+
 
 		</div>
 		<!-- End of container -->
