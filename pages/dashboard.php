@@ -12,7 +12,7 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
     <div class="row">
         <div class="col-3 bg-white">
             <center style="padding-top:30px;">
-              <img alt="img" heigt="125" width="125" style="border-radius:100%;" src="https://dummyimage.com/125x125/7b4eca/fff.png&text=MP">
+              <img alt="img" heigt="125" width="125" style="border-radius:100%;" src="https://dummyimage.com/125x125/98DFD9/fff.png&text=MP">
               <h2><a href="<?php echo $url; ?>/page/profile"><?php echo check_username($myuserid); ?></a></h2>
               <h4>Lorem Ipsum</h4>
             </center>
@@ -24,7 +24,7 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
             </ul>
         </div>
         <div class="col-9">
-          <div class="row" style="background:#fe7f2e;height:300px;">
+          <div class="row" style="background:#98DFD9;height:300px;">
               <div class="col-12">
                 <div style="margin-left:3%; width:30%;color:white;margin-top:3vh;margin-bottom:3vh;">
                 <h1>Hi Monkey Pussy!</h1>
@@ -33,24 +33,24 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
           <div class="col-12">
                 <div style="background:white;border-radius:5px;float:left;width:30%;margin-left:2%;padding:20px;min-height:250px;">
                   <p style="font-size:20px;">Dein Status</p>
-                  <h2 style="color:#fe7f2e;">Studium</h2>
+                  <h2 style="color:#67BCB9;">Studium</h2>
 
                   <p style="margin-top:20px;font-size:20px;">Nächste Stufe</p>
-                  <h2 style="color:#8840c5;">Master</h2>
+                  <h2 style="color:#67BCB9;">Master</h2>
                 </div>
 
                 <div style="background:white;border-radius:5px;float:left;width:30%;margin-left:2%;padding:20px;min-height:250px;text-align:center;">
                   <p style="font-size:20px;">Bereits eingetragen</p>
-                  <p style="font-size:58px;color:#fe7f2e;">11</p>
+                  <p style="font-size:58px;color:#67BCB9;">11</p>
 
-                  <p>Du hast deine letzte Datei<br> vor <span style="color:#8840c5;">4 Tagen</span> hochgeladen</p>
+                  <p>Du hast deine letzte Datei<br> vor <span style="color:#67BCB9;">4 Tagen</span> hochgeladen</p>
                 </div>
 
                 <div style="background:white;border-radius:5px;float:left;width:30%;margin-left:2%;padding:20px;min-height:250px;text-align:center;">
                   <p style="font-size:20px;">Glückwunsch!</p>
-                  <p style="font-size:45px;color:#8840c5;">10 <span style="color:#000;font-size:18px;text-align:right;">gelesen</span></p>
+                  <p style="font-size:45px;color:#67BCB9;">10 <span style="color:#000;font-size:18px;text-align:right;">gelesen</span></p>
 
-                  <p style="font-size:45px;color:#8840c5;">5 <span style="color:#000;font-size:18px;text-align:right;">Kommentare</span></p>
+                  <p style="font-size:45px;color:#67BCB9;">5 <span style="color:#000;font-size:18px;text-align:right;">Kommentare</span></p>
                 </div>
 
               </div>
@@ -68,15 +68,15 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
                   <table style="text-align:left;">
 
                     <tr>
-                      <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/7b4eca/fff.png&text=AU"></td>
+                      <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/98DFD9/fff.png&text=AU"></td>
                       <td style="padding-left:5%;">Ausbildung<br><small>Prozess in 22% - letztes Update vor 2 Tagen</small></td>
                     </tr>
                     <tr>
-                      <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/fe7f2e/fff.png&text=FI"></td>
+                      <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/67BCB9/fff.png&text=FI"></td>
                       <td style="padding-left:5%;">Finanzen<br><small>Prozess in 45% - letztes Update vor 12 Tagen</small></td>
                     </tr>
                     <tr>
-                      <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/7b4eca/fff.png&text=SL"></td>
+                      <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/98DFD9/fff.png&text=SL"></td>
                       <td style="padding-left:5%;">Soziales Leben<br><small>Prozess in 62% - letztes Update vor 5 Tagen</small></td>
                     </tr>
 
@@ -92,15 +92,15 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
                 <table style="text-align:left;">
 
                   <tr>
-                    <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/fe7f2e/fff.png&text=AU"></td>
+                    <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/98DFD9/fff.png&text=AU"></td>
                     <td style="padding-left:5%;">Ausbildung<br><small>Prozess in 22% - letztes Update vor 2 Tagen</small></td>
                   </tr>
                   <tr>
-                    <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/7b4eca/fff.png&text=FI"></td>
+                    <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/67BCB9/fff.png&text=FI"></td>
                     <td style="padding-left:5%;">Finanzen<br><small>Prozess in 45% - letztes Update vor 12 Tagen</small></td>
                   </tr>
                   <tr>
-                    <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/fe7f2e/fff.png&text=SL"></td>
+                    <td><img alt="img" heigt="50" width="50" style="border-radius:10%;" src="https://dummyimage.com/125x125/98DFD9/fff.png&text=SL"></td>
                     <td style="padding-left:5%;">Soziales Leben<br><small>Prozess in 62% - letztes Update vor 5 Tagen</small></td>
                   </tr>
 
@@ -121,10 +121,10 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
                   <b>Todo-List</b>
                   <hr>
                   <ul style="list-style:none;padding:0px;">
-                    <li style="margin-top:6px;"><input type="checkbox" style="margin-left:5px;margin-right:5px;outline:3px solid #fe7f2e;"> Lorem ipsum dolor sit amet</li>
-                    <li style="margin-top:6px;"><input type="checkbox" style="margin-left:5px;margin-right:5px;outline:3px solid #fe7f2e;"> Lorem ipsum dolor sit amet</li>
-                    <li style="margin-top:6px;"><input type="checkbox" style="margin-left:5px;margin-right:5px;outline:3px solid #fe7f2e;"> Lorem ipsum dolor sit amet consete</li>
-                    <li style="margin-top:6px;"><input type="checkbox" style="margin-left:5px;margin-right:5px;outline:3px solid #fe7f2e;"> Lorem ipsum dolor sit amet consete scing elitr, sed diam nonumy eirmod</li>
+                    <li style="margin-top:6px;"><input type="checkbox" style="margin-left:5px;margin-right:5px;outline:3px solid #98DFD9;"> Lorem ipsum dolor sit amet</li>
+                    <li style="margin-top:6px;"><input type="checkbox" style="margin-left:5px;margin-right:5px;outline:3px solid #98DFD9;"> Lorem ipsum dolor sit amet</li>
+                    <li style="margin-top:6px;"><input type="checkbox" style="margin-left:5px;margin-right:5px;outline:3px solid #98DFD9;"> Lorem ipsum dolor sit amet consete</li>
+                    <li style="margin-top:6px;"><input type="checkbox" style="margin-left:5px;margin-right:5px;outline:3px solid #98DFD9;"> Lorem ipsum dolor sit amet consete scing elitr, sed diam nonumy eirmod</li>
                   </ul>
                 </div>
               </div>
@@ -159,5 +159,4 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
 
 <?php
 }
-?>	
-	
+?>
