@@ -24,9 +24,10 @@ require $_SERVER['DOCUMENT_ROOT']."/php/function/user/check_username.php";
             </ul>
         </div>
         <div class="col-9">
-          <div class="row" style="background:#98DFD9;height:300px;">
+          <div class="row" style="background: #000000 url(https://trello-attachments.s3.amazonaws.com/5f1dd66c8d3fa48611574d7b/5fa44a1d73cf031a66de1133/30dbfb78d9cd18c6d753a6723e5e98cf/Zeichenfl%C3%A4che_1.jpg) no-repeat center center;
+		  background-size: cover; height:300px;">
               <div class="col-12">
-                <div style="margin-left:3%; width:30%;color:white;margin-top:3vh;margin-bottom:3vh;">
+                <div style="margin-left:3%; width:50%;color:white;margin-top:3vh;margin-bottom:3vh;">
                 <h1>Hi Monkey Pussy!</h1>
                 <h6>Have a nice day!</h6>
           </div>
